@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Jim CV Website</title>
 </head>
+
 <body>
-  
+  <div class="container">
+    <header></header>
+    <content>
+      <h1>I'm <span class="typingTextList"></span></h1>
+    </content>
+    <footer>
+      <div class="iconContainer">
+        <i class="fa fa-github btn" style="font-size:36px" onclick="location.href='https://github.com/cychowai';"></i>
+        <i class="fa fa-linkedin-square btn" style="font-size:36px"
+          onclick="location.href='https://www.linkedin.com/in/jim-chow-727277210/';"></i>
+      </div>
+      <div class="licenseContainer">
+        <i class="fa fa-github btn" style="font-size:24px"
+          onclick="location.href='https://github.com/cychowai/jim.cv.io';"></i>
+        <p>Copyright for this website reserved by Chow Chi Yau, Jim © 2022</p>
+        <!-- code can be used in php to get the current year -->
+        <!-- <?php echo date("Y");?> -->
+      </div>
+    </footer>
+  </div>
+  <!-- Reference: https://github.com/mattboldt/typed.js/ -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="/js/typingText.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,44 @@
+
+
+.container {
+  width: 100%;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.licenseContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 0 0.5vw;
+}
+
+.btn:hover {
+  opacity: 70%;
+}
+
+header {
+  width: 100%;
+}
+
+content {
+  width: 100%;
+  min-height: 100vh;
+  padding: 4vh 4vw;
+}
+
+footer {
+  width: 100%;
+  min-height: 12vh;
+  padding: 4vh 4vw;
+  background: #000;
+  color: #fff;
+}
