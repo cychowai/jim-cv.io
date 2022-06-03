@@ -8,24 +8,126 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Jim CV Website</title>
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/workingExp.css">
+  <title>Jim Personal Website</title>
 </head>
 
 <body>
   <div class="container">
-    <header></header>
+    <header>
+      <nav>
+        <div class="logo">Jim<u>_</u></div>
+        <ul class="navList">
+          <li><a href="#aboutMe">about me</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#workingExp">working experience</a></li>
+          <li><a href="#academic">academic results</a></li>
+        </ul>
+        <div class="iconContainer">
+          <a href="https://www.linkedin.com/in/jim-chow-727277210/">
+            <i class="fa fa-linkedin-square btn" style="font-size:36px"></i>
+          </a>
+          <a href="https://github.com/cychowai/jim.cv.io">
+            <i class="fa fa-github btn" style="font-size:36px"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
     <content>
-      <h1>I'm <span class="typingTextList"></span></h1>
+      <div>
+        <p class="typingText">I'm a <span class="typingTextList"></span></p>
+      </div>
+      <!-- <button>Contact Me</button> -->
+      <div id="aboutMe">
+        <div>
+          <p>I am Jim, ...</p>
+        </div>
+        <div>
+          <p><i class="fa fa-terminal fa-fw margin-right large text-teal"></i>
+            Chow Chi Yau, Jim</p>
+          <p><i class="fa fa-briefcase fa-fw margin-right large text-teal"></i>
+            Final Year HKUST student (graduation on 2022 summer)</p>
+          <p><i class="fa fa-phone fa-fw margin-right large text-teal"></i>
+            Tel: +852 69186910</p>
+          <p><i class="fa fa-envelope fa-fw margin-right large text-teal"></i>
+            Email: cychowai@connect.ust.hk / jimccy062@gmail.com</p>
+          <p><i class="fa fa-home fa-fw margin-right large text-teal"></i>
+            Fanling, Hong Kong, CN</p>
+          <p><i class="fa fa-github fa-fw margin-right large text-teal"></i>
+            Github: cychowai</p>
+        </div>
+      </div>
+
+      <div id="workingExp">
+        <div class="tailorM">
+          <div class="title">Full-stack Web Developer (Part-time)</div>
+          <div class="company">TailorM(HK) Holdings Limited (Techquotations)</div>
+          <div class="period">4 Sep 2021 - 1 June 2022</div>
+          <div class="content">
+
+          </div>
+          <div class="doc">Click <a href="/jim-cv.io/src/documents/TQ.pdf" target="_blank">here</a> to view</div>
+        </div>
+        <div class="vivablee">
+          <div class="title">Full-stack Web & App Developer (Summer Intern)</div>
+          <div class="company">Vivablee Limited</div>
+          <div class="period">5 Jul 2021 - 30 Aug 2021</div>
+          <div class="content">
+            Vivablee is a start-up company funded by Cyberport, Chung Chi College in CUHK, who is working on a platform
+            for providing mental health service and bridge
+            for some chillful or mindful activity tutors to have their online class for our users. Vivablee App is on
+            the Playstore and IOS, which is aiming for more users
+            to download and release the stress and provide happiness for Hongkongers, and for the website, it is for
+            visitors to read mindful articles and A to Z essays,
+            and know more about Vivablee.
+            <br><br>
+            I am dutied as a website and app developer for building the websites by ReactJS and create a dynamic
+            interface with UI and UX designers, and also manage the
+            database of the website and app, ie. firebase, by deploying cloud functions for auto back-up and on the
+            Google Cloud Perform to transfer database. On the App
+            development, I use React Native for building some functional component for the App.
+            It is an extremely great experience for me to learn, because in a growing start-up, I need to handle a
+            various type of tasks, database, cloud, react, react native
+            ,etc. And most importance the cooperation with business and design team and communication between teammates
+            and seniors to effectively complete the task.
+          </div>
+          <div class="doc">Click <a href="/jim-cv.io/src/documents/VVB.pdf" target="_blank">here</a> to view</div>
+        </div>
+        <div class="daytaAI">
+          <div class="title">Website Testing & Debuging and IT Support (Summer Intern)</div>
+          <div class="company">Dayta AI Limited</div>
+          <div class="period">13 Jul 2020 - 31 Aug 2020</div>
+          <div class="content">
+            Dayta AI is a company in HKSTP, who is working on AI detection technology on shops and data visualization
+            for the data collected from AI engine
+            on the camera in the shops, it is achieved by AI detection without using any expensive additional detection
+            devices for collecting big data.
+            <br><br>
+            I am dutied as a website tester and debugger for testing the websites which is the interface for our
+            customers to use.
+            I learnt how to present the errors and bugs or some things that needs room for improvement clearly to my
+            supervisor and colleague.
+            Also, I learnt how to use tools like Wordpress for editing a website. It is a good learning experience for
+            me to have internship in this company.
+          </div>
+          <div class="doc">Click <a href="/jim-cv.io/src/documents/Dayta.pdf" target="_blank">here</a> to view</div>
+        </div>
+      </div>
     </content>
     <footer>
       <div class="iconContainer">
-        <i class="fa fa-github btn" style="font-size:36px" onclick="location.href='https://github.com/cychowai';"></i>
-        <i class="fa fa-linkedin-square btn" style="font-size:36px"
-          onclick="location.href='https://www.linkedin.com/in/jim-chow-727277210/';"></i>
+        <a href="https://www.linkedin.com/in/jim-chow-727277210/">
+          <i class="fa fa-linkedin-square btn" style="font-size:36px"></i>
+        </a>
+        <a href="https://github.com/cychowai/jim.cv.io">
+          <i class="fa fa-github btn" style="font-size:36px"></i>
+        </a>
       </div>
       <div class="licenseContainer">
-        <i class="fa fa-github btn" style="font-size:24px"
-          onclick="location.href='https://github.com/cychowai/jim.cv.io';"></i>
+        <a href="https://github.com/cychowai/jim.cv.io">
+          <i class="fa fa-github btn" style="font-size:24px"></i>
+        </a>
         <p>Copyright for this website reserved by Chow Chi Yau, Jim © 2022</p>
         <!-- code can be used in php to get the current year -->
         <!-- <?php echo date("Y");?> -->

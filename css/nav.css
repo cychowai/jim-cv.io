@@ -1,0 +1,83 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 5vh;
+  padding: 2vh 0;
+  z-index: 111;
+}
+
+.logo {
+  display: flex;
+  font-size: 3vh;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+u {
+  font-size: 4vh;
+  color: black;
+  opacity: 1;
+  animation: opacityChange 2s normal 0.2s infinite forwards;
+}
+
+@keyframes opacityChange {
+  0% {
+      opacity: 1;
+  }
+  90% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.navList {
+  display: flex;
+}
+
+.navList li {
+  position: relative;
+  list-style: none;
+  margin: 0 15px;
+}
+
+.navList li a {
+  font-size: 2vh;
+  color: grey;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navList li::after {
+  display: block;
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 4px;
+  width: 0;
+  left: 0;
+  bottom: -3vh;
+  transition: all .3s ease-in-out;
+}
+
+.navList li:hover::after {
+  width: 80%;
+}
+
+.navList li:hover a {
+  color: black;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 0 0.5vw;
+}
+
+.btn:hover {
+  opacity: 70%;
+}
