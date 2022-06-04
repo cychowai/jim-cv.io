@@ -27,13 +27,25 @@
   color: grey;
   font-size: 2vh;
   padding: 1vh 1vw;
+  margin: 0 0 1vh;
 }
 
 #workingExp .doc {
+  text-decoration: none;
   font-size: 2vh;
   background: #003087;
   color: white;
   padding: 1vh 1vw;
   border-radius: 25px;
+  width: fit-content;
+  cursor: pointer;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+#workingExp .doc:hover {
+  background: white;
+  color: #003087;
+  border: 2px solid#003087;
   width: fit-content;
 }
