@@ -13,7 +13,7 @@
 }
 
 #workingExp .company {
-  color: rgb(36, 33, 33);
+  color: #012169;
   font-size: 2.5vh;
   margin: 1vh 0;
 }
@@ -30,5 +30,10 @@
 }
 
 #workingExp .doc {
-  font-size: 1.5vh;
+  font-size: 2vh;
+  background: #003087;
+  color: white;
+  padding: 1vh 1vw;
+  border-radius: 25px;
+  width: fit-content;
 }

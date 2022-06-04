@@ -8,17 +8,18 @@ nav {
 }
 
 .logo {
-  display: flex;
+  display: none;
   font-size: 3vh;
   font-weight: bold;
   letter-spacing: 2px;
+  color: #012169;
   cursor: pointer;
   text-transform: uppercase;
 }
 
-u {
-  font-size: 4vh;
-  color: black;
+.logo > p {
+  font-size: 3.5vh;
+  color: #012169;
   opacity: 1;
   animation: opacityChange 2s normal 0.2s infinite forwards;
 }
@@ -57,7 +58,7 @@ u {
   display: block;
   content: "";
   position: absolute;
-  background-color: black;
+  background-color: #012169;
   height: 4px;
   width: 0;
   left: 0;
@@ -70,7 +71,12 @@ u {
 }
 
 .navList li:hover a {
-  color: black;
+  color: #012169;
+}
+
+.iconContainer {
+  padding: 2vh 2vw;
+  display: none;
 }
 
 .btn {
@@ -80,4 +86,16 @@ u {
 
 .btn:hover {
   opacity: 70%;
+}
+
+@media (min-width:961px) {
+  .logo {
+    display: flex;
+  }
+
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
