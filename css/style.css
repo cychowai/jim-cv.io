@@ -5,6 +5,10 @@
   font-family: 'Montserrat';
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow: hidden;
 }
@@ -30,6 +34,7 @@ content {
   padding: 4vh 4vw;
 }
 
+/* about me style */
 #aboutMe {
   width: 60%;
   margin: 4vh 20%;
@@ -47,6 +52,7 @@ content {
   margin: 0 2px;
 }
 
+/* typing text style */
 .typingText {
   display: block;
   font-size: 7vh;
@@ -58,6 +64,7 @@ content {
   color: black;
 }
 
+/* footer style */
 footer {
   width: 100%;
   padding: 4vh 4vw;

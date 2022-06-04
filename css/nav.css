@@ -12,14 +12,13 @@ nav {
   font-size: 3vh;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #012169;
-  cursor: pointer;
+  color: black;
   text-transform: uppercase;
 }
 
 .logo > p {
   font-size: 3.5vh;
-  color: #012169;
+  color: grey;
   opacity: 1;
   animation: opacityChange 2s normal 0.2s infinite forwards;
 }
@@ -54,11 +53,15 @@ nav {
   text-transform: capitalize;
 }
 
+.navList li:nth-child(0) {
+  color: #c13584;
+}
+
 .navList li::after {
   display: block;
   content: "";
   position: absolute;
-  background-color: #012169;
+  background-color: #c13584;
   height: 4px;
   width: 0;
   left: 0;
@@ -71,7 +74,7 @@ nav {
 }
 
 .navList li:hover a {
-  color: #012169;
+  color: black;
 }
 
 .iconContainer {

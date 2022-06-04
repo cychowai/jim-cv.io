@@ -16,6 +16,7 @@
   color: #012169;
   font-size: 2.5vh;
   margin: 1vh 0;
+  cursor: pointer;
 }
 
 #workingExp .period {
@@ -33,7 +34,7 @@
 #workingExp .doc {
   text-decoration: none;
   font-size: 2vh;
-  background: #003087;
+  background: #e1306c;
   color: white;
   padding: 1vh 1vw;
   border-radius: 25px;
@@ -45,7 +46,7 @@
 
 #workingExp .doc:hover {
   background: white;
-  color: #003087;
-  border: 2px solid#003087;
+  color: #e1306c;
+  border: 2px solid#e1306c;
   width: fit-content;
 }
