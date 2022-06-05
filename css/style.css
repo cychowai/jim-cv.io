@@ -40,8 +40,8 @@ content::before {
   height: 600px;
   width: 600px;
   border-radius: 50%;
-  left: 72%;
-  top: 40%;
+  left: 78%;
+  top: 38%;
   background: linear-gradient(45deg, #883ab4, pink);
   animation: circle1 6s linear infinite;
 }
@@ -52,7 +52,7 @@ content::after {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  left: 8%;
+  left: 6%;
   top: 12%;
   background: linear-gradient(45deg, #883ab4,#c13584);
   animation: circle2 6s linear infinite;
@@ -60,14 +60,14 @@ content::after {
 
 @keyframes circle1 {
   50% {
-    left: 75%;
+    left: 80%;
     top: 41%
   }
 }
 
 @keyframes circle2 {
   50% {
-    left: 10%;
+    left: 8%;
     top: 13%
   }
 }
