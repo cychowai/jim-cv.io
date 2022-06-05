@@ -34,24 +34,6 @@ content {
   padding: 4vh 4vw;
 }
 
-/* about me style */
-#aboutMe {
-  width: 60%;
-  margin: 4vh 20%;
-}
-
-#aboutMe div {
-  padding: 4vh 4vw;
-}
-
-#aboutMe p {
-  font-size: 2vh;
-}
-
-#aboutMe i {
-  margin: 0 2px;
-}
-
 /* typing text style */
 .typingText {
   display: block;
