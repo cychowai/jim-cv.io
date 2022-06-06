@@ -2,6 +2,10 @@
   margin: 0 20%;
 }
 
+#workingExp > h1 {
+  font-weight: 900px;
+}
+
 #workingExp > div {
   margin: 4vh auto;
 }

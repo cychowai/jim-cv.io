@@ -76,6 +76,21 @@ content::after {
   z-index: 5;
 }
 
+/* skills style */
+#skills {
+  margin: 4vh 20%;
+}
+
+#skills h1 {
+  font-weight: 900px;
+}
+
+#skills p {
+  margin: 1vh 1vw;
+  font-size: 2vh;
+  color: grey;
+}
+
 /* footer style */
 footer {
   width: 100%;
