@@ -1,5 +1,5 @@
 const content = {
-  strings: ["programmer", "web developer", "HKUST graduate", "full-stack developer", "IT doge", "experienced coder"],
+  strings: ["engineer", "programmer", "web developer", "HKUST graduate", "full-stack developer", "IT doge :)"],
   loop: true,
   typeSpeed: 80,
   backSpeed: 100,
