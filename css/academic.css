@@ -1,5 +1,59 @@
 #academic {
-  margin: 0 20%;
+  margin: 0 auto;
+}
+
+#academic .title {
+  color: black;
+  font-size: 3.5vh;
+  font-weight: bold;
+}
+
+#academic > div {
+  margin: 4vh auto;
+}
+
+#academic .resultList{
+  color: grey;
+  font-size: 2vh;
+  padding: 1vh 1vw;
+  margin: 0 0 1vh;
+}
+
+#academic .school {
+  color: #012169;
+  font-size: 2.5vh;
+  margin: 1vh 0;
+  cursor: pointer;
+}
+
+#academic h5 {
+  margin: 1vh 0 2vh;
+}
+
+#academic .period {
+  font-size: 2vh;
+  font-weight: bold;
+  margin: 0 0 2vh;
+}
+
+#academic .doc {
+  text-decoration: none;
+  font-size: 2vh;
+  background: #e1306c;
+  color: white;
+  padding: 1vh 1vw;
+  border-radius: 25px;
+  width: fit-content;
+  cursor: pointer;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+#academic .doc:hover {
+  background: white;
+  color: #e1306c;
+  border: 2px solid#e1306c;
+  width: fit-content;
 }
 
 @media (min-width:961px) {
