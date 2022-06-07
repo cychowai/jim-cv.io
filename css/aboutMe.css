@@ -1,7 +1,7 @@
 #aboutMe {
-  width: 60%;
-  margin: 4vh 20%;
-  text-align: justify;
+  width: 100%;
+  margin: 2vh auto;
+  text-align: left;
 }
 
 #aboutMe .forMe {
@@ -46,4 +46,12 @@
 
 #aboutMe i {
   margin: 0 2px;
+}
+
+@media (min-width:961px) {
+  #aboutMe {
+    width: 60%;
+    margin: 4vh 20%;
+    text-align: justify;
+  }
 }

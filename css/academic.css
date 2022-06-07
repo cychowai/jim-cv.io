@@ -1,0 +1,9 @@
+#academic {
+  margin: 0 20%;
+}
+
+@media (min-width:961px) {
+  #academic {
+    margin: 0 20%;
+  }
+}

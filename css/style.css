@@ -35,6 +35,7 @@ content {
 }
 
 content::before {
+  display: none;
   position: absolute;
   content: '';
   height: 600px;
@@ -47,6 +48,7 @@ content::before {
 }
 
 content::after {
+  display: none;
   position: absolute;
   content: '';
   height: 200px;
@@ -114,8 +116,8 @@ footer {
 
 /* typing text style */
 .typingText {
+  display: none;
   text-align: center;
-  display: block;
   font-size: 7vh;
   font-weight: 900;
   color: grey;
@@ -124,3 +126,18 @@ footer {
 .typingTextList {
   color: black;
 }
+
+@media (min-width:961px) {
+  content::before {
+    display: flex;
+  }
+  
+  content::after {
+    display: flex;
+  }
+
+  .typingText {
+    display: block;
+  }
+}
+

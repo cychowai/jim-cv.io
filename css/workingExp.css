@@ -1,5 +1,5 @@
 #workingExp {
-  margin: 0 20%;
+  margin: 0 auto;
 }
 
 #workingExp > h1 {
@@ -54,4 +54,10 @@
   color: #e1306c;
   border: 2px solid#e1306c;
   width: fit-content;
+}
+
+@media (min-width:961px) {
+  #workingExp {
+    margin: 0 20%;
+  }
 }
