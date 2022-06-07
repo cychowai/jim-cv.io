@@ -80,7 +80,7 @@ content::after {
 
 /* skills style */
 #skills {
-  margin: 4vh 20%;
+  margin: 2vh auto;
 }
 
 #skills h1 {
@@ -138,6 +138,10 @@ footer {
 
   .typingText {
     display: block;
+  }
+
+  #skills {
+    margin: 4vh 20%;
   }
 }
 
